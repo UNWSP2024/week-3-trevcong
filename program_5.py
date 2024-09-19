@@ -1,3 +1,10 @@
+# AUTHOR: Trevor Conger UNWSP 
+# DATE: 9/19/24 
+# TITLE: Hot dog or chili dog ?! 
+
+
+
+
 # There are two kinds of hot dogs sold:  
 # Hot Dog ($3.50), Chili Dog ($4.50).  
 # Additionally a person can order cheese ($0.50), peppers ($0.75), or grilled onions ($1.00).  
@@ -5,6 +12,10 @@
 # Write a program the inputs the type of hot dog wanted and optional toppings.  
 # The program then displays the hot dog cost, tax and total cost. 
 
+
+#Function to take someones order as either a hot dog or chili dog 
+# Asks user if they want toppings ( they are extra $ )
+# Returns to user the TOTAL COST , TAX , TOTAL COST + TAX 
 def orderFunction():
     ordercostTaxAndTotalCost = []
     print("Hello and welcome to Trevors Hot Dogs! \n")
