@@ -13,13 +13,13 @@
 # This function takes in a float ( weight ) to calculate the shipping cost
 def weight_conversion(weight):
     shippingCost = 0.0
-    if weight <= 2: 
+    if weight <= 2.0: 
         shippingCost = weight * 1.5
-    elif 2 < weight <= 6: 
+    elif 2.0 < weight <= 6.0: 
         shippingCost = weight * 3.00
-    elif 6 < weight <= 10: 
+    elif 6.0 < weight <= 10.0: 
         shippingCost = weight * 4.00
-    elif weight > 10: 
+    elif weight > 10.0: 
         shippingCost = weight * 4.75
     return shippingCost
 
