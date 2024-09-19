@@ -14,13 +14,13 @@
 def weight_conversion(weight):
     shippingCost = 0.0
     if weight <= 2.0: 
-        shippingCost = weight * 1.5
+        shippingCost = 1.5
     elif 2.0 < weight <= 6.0: 
-        shippingCost = weight * 3.00
+        shippingCost = 3.00
     elif 6.0 < weight <= 10.0: 
-        shippingCost = weight * 4.00
+        shippingCost = 4.00
     elif weight > 10.0: 
-        shippingCost = weight * 4.75
+        shippingCost = 4.75
     return shippingCost
 
 #### This piece of the code has been done for you,
