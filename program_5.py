@@ -2,9 +2,6 @@
 # DATE: 9/19/24 
 # TITLE: Hot dog or chili dog ?! 
 
-
-
-
 # There are two kinds of hot dogs sold:  
 # Hot Dog ($3.50), Chili Dog ($4.50).  
 # Additionally a person can order cheese ($0.50), peppers ($0.75), or grilled onions ($1.00).  
