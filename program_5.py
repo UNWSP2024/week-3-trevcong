@@ -64,6 +64,6 @@ def orderFunction():
 
 if __name__ == '__main__':
     order = orderFunction()
-    print("Your hot dog will cost you $" + str(order[0]))
-    print("Your tax will be $" + str(order[1]))
-    print("Your final cost will come to $ " + str(order[2]))
+    print("Your hot dog will cost you $", order[0])
+    print("Your tax will be $", format(order[1], '.2f'))
+    print("Your final cost will come to $ ", format(order[2], '.2f'))
